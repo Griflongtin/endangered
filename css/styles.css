@@ -1,6 +1,7 @@
 body {
   margin-left: 100px;
   margin-right: 100px;
+  font-family: 'Comfortaa', cursive;
 }
 
 .masthead {
@@ -33,18 +34,105 @@ div.map {
 }
 
 div.animal {
-  width: 1000px;
-  height: 500px;
-  position: relative;
-}
-div.animal {
+  width: 320px;
+  height: auto;
   top: 500px;
+  left: 500px;
+  transform: translate(-50%, 9%);
   position: absolute;
   display: none;
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  background-color: #f9f9e5;
+  font-size: 20px;
 }
 
-#rhino:hover + .animal {
+
+.animal img {
+  border-radius: 25px;
+}
+
+
+#rhino:hover + .rhino {
   display: block;
+}
+
+.rhino::after {
+  content: "Only 2,500 of these Rhinos are left.";
+}
+
+#whale-active:hover + .whale {
+  display: block;
+}
+
+.whale::after {
+  content: "Only 200,000 of these Whales are left.";
+}
+
+#rat:hover + .rat {
+  display: block;
+}
+
+.rat::after {
+  content: "Google It. I am not your source of info. Please!";
+}
+
+#turtle:hover + .turtle {
+  display: block;
+}
+
+.turtle::after {
+  content: "Only 200,000 of these Turtles are left.";
+}
+
+#dog:hover + .dog {
+  display: block;
+}
+
+.dog::after {
+  content: "Only 100,000 of these Dogs are left.";
+}
+
+
+#bat:hover + .bat {
+  display: block;
+}
+
+.bat::after {
+  content: "Google It. I am not your source of info. Please!";
+}
+
+#seal:hover + .seal {
+  display: block;
+}
+
+.seal::after {
+  content: "Only 1,100 of these Seals are left.";
+}
+
+#cougar:hover + .cougar {
+  display: block;
+}
+
+.cougar::after {
+  content: "Only 30,000 of these Cougars are left.";
+}
+
+#sloth:hover + .sloth {
+  display: block;
+}
+
+.sloth::after {
+  content: "Only 100 of these Sloths are left.";
+}
+
+#leopard:hover + .leopard {
+  display: block;
+}
+
+.leopard::after {
+  content: "Only 4,550 - 7,000 of these Leopards are left.";
 }
 
 img#rhino {
