@@ -1,0 +1,108 @@
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.masthead {
+  position: sticky;
+  background-color: grey;
+  width: 1000px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.masthead-text {
+  text-align: center;
+  color: white;
+  padding: 1px;
+}
+
+div.map {
+  background-image: url(../img/world-map-canvas.jpg);
+  background-repeat: no-repeat;
+  background-size: 1000px 500px;
+  width: 1000px;
+  height: 1000px;
+  display: block;
+  position: relative;
+  }
+
+.map img.pin {
+  width: 75px;
+  position: absolute;
+}
+
+div.animal {
+  width: 1000px;
+  height: 500px;
+  position: relative;
+}
+div.animal {
+  top: 500px;
+  position: absolute;
+  display: none;
+}
+
+#rhino:hover + .animal {
+  display: block;
+}
+
+img#rhino {
+  top: 150px;
+  left: 460px;
+  transform: translate(50%, 50%);
+}
+
+img#whale {
+  bottom: 565px;
+  left: 425px;
+  transform: translate(50%, 50%);
+}
+
+img#rat {
+  top: 50px;
+  left: 680px;
+  transform: translate(50%, 50%);
+}
+
+img#turtle {
+  bottom: 685px;
+  left: 760px;
+  transform: translate(50%, 50%);
+}
+
+img#dog {
+  top: 73px;
+  left: 130px;
+  transform: translate(50%, 50%);
+}
+
+img#bat {
+  bottom: 950px;
+  left: 440px;
+  transform: translate(50%, 50%);
+}
+
+img#seal {
+  top: 45px;
+  right: 960px;
+  transform: translate(50%, 50%);
+}
+
+img#cougar {
+  bottom: 950px;
+  left: 150px;
+  transform: translate(50%, 50%);
+}
+
+img#sloth {
+  top: 180px;
+  left: 250px;
+  transform: translate(50%, 50%);
+}
+
+img#leopard {
+  bottom: 900px;
+  left: 500px;
+  transform: translate(50%, 50%);
+}
